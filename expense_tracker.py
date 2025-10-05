@@ -22,7 +22,7 @@ cursor.execute ("""create table if not exists exp_table(
 print ("operations-- \n" \
 "enter (1) to show transactions \n" \
 "enter (2) to record transaction \n" \
-"enter (3) to calculate interst \n4" \
+"enter (3) to calculate interest \n" \
 "enter (4) to clear transaction history" )
 
 
@@ -78,4 +78,5 @@ else:
 
 cursor.close()
 conn.close()
+
 
